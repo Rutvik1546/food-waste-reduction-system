@@ -4,7 +4,7 @@
 2. Project Overview:
         The Local Food Waste Reduction System is a web-based application developed using PHP with MVC (Model-View-Controller) architecture to reduce food waste and promote community welfare. The system serves as a bridge between donors — such as restaurants, grocery stores, and households with surplus food — and receivers, including NGOs, shelters, and individuals in need. By enabling donors to share excess food before it spoils, the system helps minimize food wastage and supports hunger relief efforts.
 
-The application allows users to register, log in, list food items, request donations, and manage transactions through an interactive interface. The target audience includes restaurants, households, NGOs, and local community members who wish to contribute to food redistribution in their area.
+		The application allows users to register, log in, list food items, request donations, and manage transactions through an interactive interface. The target audience includes restaurants, households, NGOs, and local community members who wish to contribute to food redistribution in their area.
 
 3. Project Objectives:
 	To develop a user-friendly and responsive web application for local food sharing.
