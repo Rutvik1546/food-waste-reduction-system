@@ -1,62 +1,95 @@
-# food-waste-reduction-system
-1. Project Title: Local Food Waste Reduction System
+# 🍽️ Local Food Waste Reduction System
 
-2. Project Overview:
-        The Local Food Waste Reduction System is a web-based application developed using PHP with MVC (Model-View-Controller) architecture to reduce food waste and promote community welfare. The system serves as a bridge between donors — such as restaurants, grocery stores, and households with surplus food — and receivers, including NGOs, shelters, and individuals in need. By enabling donors to share excess food before it spoils, the system helps minimize food wastage and supports hunger relief efforts.
+## 🏷️ Project Title
+**Local Food Waste Reduction System**
 
-		The application allows users to register, log in, list food items, request donations, and manage transactions through an interactive interface. The target audience includes restaurants, households, NGOs, and local community members who wish to contribute to food redistribution in their area.
+---
 
-3. Project Objectives:
-	To develop a user-friendly and responsive web application for local food sharing.
-	To implement MVC architecture for better code organization and scalability.
-	To establish a secure authentication system for donors and receivers.
-	To provide efficient CRUD functionalities for managing food listings, users, and requests.
-	To reduce food waste by connecting food donors with receivers in real time.
-	To promote environmental sustainability and social responsibility through technology.
+## 🧾 Project Overview
+The **Local Food Waste Reduction System** is a **web-based application** developed using **PHP (MVC Architecture)** that aims to **minimize food waste** and promote **community welfare**.
 
-4. Project Scope:
-  1. Authentication Module
-  	User Registration (Signup): Donors and receivers can create accounts.
-  	User Authentication (Sign in): Secure login with session management.
-  	Change Password: Users can update passwords after logging in.
-  	Forgot Password: Allows password recovery via email.
-  	Profile Management: Edit or update personal and organization details.
+This platform connects **food donors** — such as restaurants, grocery stores, and households with surplus food — with **receivers**, including NGOs, shelters, and individuals in need.
 
-  2. User Management – User CRUD
-  	User Listing: Admin can view all registered users with search and pagination.
-  	Create/Save User: Add new users manually (for admin).
-  	Edit/Update User: Modify existing user information.
-  	Delete/Remove User: Remove inactive or fake users.
+By enabling donors to share excess food before it spoils, the system helps reduce food wastage and contributes to **hunger relief** and **environmental sustainability**.
 
-  3. Food Management – Food CRUD
-  	Add Food Item: Donors can upload food details (name, quantity, expiry, location).
-  	View Food Listings: Receivers can browse available food items.
-  	Update Food Info: Donors can edit or mark food as unavailable.
-  	Delete Food Item: Remove expired or already-donated items.
+> 🧍‍♂️ **Target Users:**  
+> Restaurants, households, NGOs, and local community members who wish to participate in food redistribution efforts.
 
-  4. Request Management – Request CRUD
-  	Create Request: Receivers can request available food.
-  	Update Request: Donors can approve or reject requests.
-  	View Requests: Admin and donors can monitor active and completed requests.
-  	Delete Request: Remove old or canceled requests.
+---
 
-  5. Admin Panel
-  	Manage users, food listings, and requests.
-  	View system statistics (total donations, active users, food saved).
-  	Maintain data authenticity and prevent duplication.
+## 🎯 Project Objectives
+- ✅ Develop a **user-friendly and responsive** web application for local food sharing.  
+- ✅ Implement **MVC architecture** for clean code organization and scalability.  
+- ✅ Establish a **secure authentication system** for donors and receivers.  
+- ✅ Provide **CRUD functionalities** for managing food, users, and requests.  
+- ✅ Enable **real-time connections** between food donors and receivers.  
+- ✅ Promote **environmental sustainability** and **social responsibility** through technology.
 
-  6. Frontend (End User Interface)
-  	Responsive and interactive interface using HTML5, CSS3, Bootstrap, and JavaScript.
-  	Separate dashboards for Donors, Receivers, and Admin.
-  	Easy navigation for food listings, requests, and profile updates.
+---
 
+## 🚀 Project Scope
 
+### 1️⃣ Authentication Module
+- 🔹 **User Registration (Signup):** Donors and receivers can create accounts.  
+- 🔹 **User Authentication (Sign In):** Secure login with session management.  
+- 🔹 **Change Password:** Allows users to update passwords securely.  
+- 🔹 **Forgot Password:** Email-based password recovery system.  
+- 🔹 **Profile Management:** Users can edit or update personal and organizational details.
 
-5. Notification System:
-  The system includes an email-based notification feature to keep users informed about important updates. Receivers get notified when their food requests are accepted, and donors receive alerts for new requests. Admins are notified of new user registrations and donation activities, ensuring smooth and interactive communication among all participants.
+---
 
-Technologies Used:
-	Frontend: HTML5, CSS3, Bootstrap, JavaScript
-	Backend: PHP (MVC Architecture)
-	Database: MySQL
-	Server: Apache (XAMPP)
+### 2️⃣ User Management – *User CRUD*
+- 👤 **User Listing:** Admin can view all registered users (with search & pagination).  
+- ➕ **Add User:** Admin can manually add new users.  
+- ✏️ **Edit User:** Modify existing user details.  
+- ❌ **Delete User:** Remove inactive or fake accounts.
+
+---
+
+### 3️⃣ Food Management – *Food CRUD*
+- 🍲 **Add Food Item:** Donors can upload food details (name, quantity, expiry, location).  
+- 👀 **View Food Listings:** Receivers can browse available food.  
+- 🛠️ **Update Food Info:** Donors can edit or mark food as unavailable.  
+- 🗑️ **Delete Food Item:** Remove expired or donated items.
+
+---
+
+### 4️⃣ Request Management – *Request CRUD*
+- 📩 **Create Request:** Receivers can request food items.  
+- ✅ **Update Request:** Donors can approve or reject requests.  
+- 📊 **View Requests:** Admin & donors can monitor active and completed requests.  
+- 🗑️ **Delete Request:** Remove canceled or old requests.
+
+---
+
+### 5️⃣ Admin Panel
+- 🧑‍💻 Manage **users, food listings, and requests**.  
+- 📈 View **system statistics** (total donations, active users, food saved).  
+- 🔒 Maintain **data authenticity** and prevent duplication.
+
+---
+
+### 6️⃣ Frontend (End User Interface)
+- 💻 Responsive interface built with **HTML5, CSS3, Bootstrap, and JavaScript**.  
+- 🧭 Separate dashboards for **Donors**, **Receivers**, and **Admin**.  
+- ⚡ Easy navigation for **food listings, requests, and profile management**.
+
+---
+
+## 🔔 Notification System
+The system includes an **email-based notification feature** for smooth communication:
+
+- ✉️ Receivers are notified when their food requests are accepted.  
+- 🍴 Donors receive alerts when new requests are made.  
+- 🧑‍💼 Admins get notified of new registrations and donation activities.
+
+---
+
+## 🛠️ Technologies Used
+
+| Layer | Technology |
+|-------|-------------|
+| 🎨 **Frontend** | HTML5, CSS3, Bootstrap, JavaScript |
+| ⚙️ **Backend** | PHP (MVC Architecture) |
+| 🗄️ **Database** | MySQL |
+| 🌐 **Server** | Apache (XAMPP) |
